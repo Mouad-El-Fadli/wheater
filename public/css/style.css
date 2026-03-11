@@ -1,0 +1,99 @@
+/* =========================================
+   Weather App - Main Stylesheet
+   ========================================= */
+
+/* --- Body & Background --- */
+body {
+    background-image: url("https://images.hdqwalls.com/wallpapers/clouds-summer-weather-5k-1b.jpg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    margin: 0;
+    min-height: 100vh;
+    font-family: Arial, sans-serif;
+}
+
+/* --- Form container centered --- */
+.form-wrapper {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 60vh;
+}
+
+fieldset {
+    background-color: rgba(255, 255, 255, 0.85);
+    border-radius: 12px;
+    border: 1px solid #ccc;
+    padding: 30px 40px;
+    min-width: 320px;
+    box-shadow: 0 4px 16px rgba(0, 0, 0, 0.2);
+}
+
+legend {
+    font-size: 1.4rem;
+    font-weight: bold;
+    color: #333;
+    padding: 0 10px;
+}
+
+/* --- Caption / subtitle --- */
+.subtitle {
+    color: #1a73e8;
+    font-weight: bold;
+    display: block;
+    margin-bottom: 12px;
+}
+
+/* --- City select dropdown --- */
+#city {
+    display: block;
+    width: 100%;
+    padding: 8px 12px;
+    margin-top: 8px;
+    border-radius: 6px;
+    border: 1px solid #aaa;
+    font-size: 1rem;
+    background-color: #fff;
+}
+
+/* --- Submit button --- */
+.btn-submit {
+    margin-top: 16px;
+    width: 100%;
+    padding: 10px;
+    font-size: 1rem;
+    border-radius: 6px;
+    border: none;
+    background-color: #28a745;
+    color: #fff;
+    cursor: pointer;
+    transition: background-color 0.2s ease;
+}
+
+.btn-submit:hover {
+    background-color: #218838;
+}
+
+/* --- Result section --- */
+.result {
+    text-align: center;
+    padding: 20px;
+}
+
+.result p {
+    display: inline-block;
+    background-color: rgba(255, 255, 255, 0.88);
+    border-radius: 10px;
+    padding: 14px 24px;
+    font-size: 1.1rem;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.15);
+    margin: 6px 0;
+}
+
+/* --- Divider --- */
+hr {
+    border: none;
+    border-top: 1px solid rgba(255,255,255,0.5);
+    margin: 20px 0;
+}
